@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary-gold: #D29F2C;
+    --color-primary-darkblue: #102332;
+    --color-secondary-lightyellow: #FEF0C7;
+    --color-text-main: #102332;
+    --color-text-light: #FFFFFF;
+
+    --font-sans: "Inter", "Roboto", sans-serif;
+    --font-display: "Poppins", "Raleway", sans-serif;
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: var(--font-sans);
+        color: var(--color-text-main);
+        background-color: white;
+        -webkit-font-smoothing: antialiased;
+    }
+}
