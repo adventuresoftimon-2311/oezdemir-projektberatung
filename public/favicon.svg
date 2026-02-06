@@ -1,0 +1,7 @@
+<svg width="512" height="512" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark Blue L (Bottom Left) -->
+  <path d="M0 0H25V75H75V100H0V0Z" fill="#102332"/>
+  
+  <!-- Gold 7 (Top Right) -->
+  <path d="M25 0H100V100H75V25H25V0Z" fill="#D29F2C"/>
+</svg>
