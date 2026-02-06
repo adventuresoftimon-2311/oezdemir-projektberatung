@@ -11,7 +11,9 @@ const Hero = () => {
             <div className="container mx-auto px-4 relative z-10 flex flex-col items-center">
                 <div className="w-fit mx-auto flex flex-col items-start text-left max-w-5xl">
                     <h1 className="text-4xl md:text-6xl lg:text-7xl font-thin font-display leading-tight mb-8 text-primary-darkblue text-left">
-                        Planung, Sanierung und<br className="hidden md:block" /> Projektunterstützung im Hochbau
+                        Projektunterstützung <br className="hidden md:block" />
+                        in Planung, Sanierung <br className="hidden md:block" />
+                        und im Hochbau
                     </h1>
 
                     <div className="flex flex-col gap-4 mb-12 w-full items-start">
@@ -35,11 +37,13 @@ const Hero = () => {
                         </div>
                     </div>
 
+
+
                     <div className="flex flex-col sm:flex-row gap-6 w-full justify-start">
-                        <Button variant="primary" className="text-lg md:text-xl px-10 py-5 shadow-lg hover:shadow-primary-gold/50 transition-all font-medium">
-                            Kostenloses Erstgespräch vereinbaren
+                        <Button variant="primary" onClick={() => window.location.href = '#contact'} className="text-lg md:text-xl px-10 py-5 shadow-lg hover:shadow-primary-gold/50 transition-all font-medium">
+                            Kostenlos Erstgespräch vereinbaren
                         </Button>
-                        <Button variant="outline" className="text-lg md:text-xl px-10 py-5 border-2 border-primary-darkblue text-primary-darkblue hover:bg-primary-darkblue hover:text-white transition-all font-medium">
+                        <Button variant="outline" onClick={() => window.location.href = '#services'} className="text-lg md:text-xl px-10 py-5 border-2 border-primary-darkblue text-primary-darkblue hover:bg-primary-darkblue hover:text-white transition-all font-medium">
                             Mehr erfahren
                         </Button>
                     </div>

@@ -42,7 +42,7 @@ const AboutMe = () => {
                             </p>
 
                             <div className="pt-6">
-                                <Button variant="outline" className="font-medium">
+                                <Button variant="outline" className="font-medium" onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>
                                     Kontakt aufnehmen
                                 </Button>
                             </div>

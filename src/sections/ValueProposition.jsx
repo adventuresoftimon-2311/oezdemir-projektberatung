@@ -6,7 +6,7 @@ const ValueProposition = () => {
         <section className="py-16 bg-gray-50">
             <div className="container mx-auto px-4 text-center">
                 <h2 className="text-3xl md:text-4xl font-thin font-display mb-6 text-primary-darkblue">
-                    Ihr Mehrwert – <span className="text-primary-gold font-light">Nachhaltigkeit</span> und <span className="text-primary-gold font-light">wirtschaftlicher Nutzen</span>.
+                    <span className="text-primary-gold font-light">Nachhaltigkeit</span> und <span className="text-primary-gold font-light">wirtschaftlicher Nutzen</span>.
                 </h2>
                 <p className="max-w-3xl mx-auto text-lg text-gray-600 leading-relaxed mb-8 font-extralight">
                     Durch frühzeitige technische Optimierung und fachgerechte Begleitung lassen sich oftmals fünf- bis sechsstellige Beträge einsparen,

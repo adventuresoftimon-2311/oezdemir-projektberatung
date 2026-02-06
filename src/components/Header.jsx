@@ -45,7 +45,7 @@ const Header = () => {
                 <div className="flex items-center gap-4 z-20">
                     {/* Desktop Button */}
                     <div className="hidden md:block">
-                        <Button variant="primary" onClick={() => window.open('https://calendly.com', '_blank')} className={`transition-all duration-300 ${isScrolled ? 'py-2 px-6 text-sm' : ''} font-medium`}>
+                        <Button variant="primary" onClick={() => window.location.href = '#contact'} className={`transition-all duration-300 ${isScrolled ? 'py-2 px-6 text-sm' : ''} font-medium`}>
                             Kostenlos Termin buchen
                         </Button>
                     </div>
@@ -74,7 +74,7 @@ const Header = () => {
                         <Link to="/#services" className="text-primary-darkblue font-extralight" onClick={() => setIsOpen(false)}>Leistungen</Link>
                         <Link to="/#about" className="text-primary-darkblue font-extralight" onClick={() => setIsOpen(false)}>Über Mich</Link>
                         <Link to="/#contact" className="text-primary-darkblue font-extralight" onClick={() => setIsOpen(false)}>Kontakt</Link>
-                        <Button variant="primary" className="w-full text-center font-medium">
+                        <Button variant="primary" onClick={() => { setIsOpen(false); window.location.href = '#contact'; }} className="w-full text-center font-medium">
                             Kostenlos Termin buchen
                         </Button>
                     </div>

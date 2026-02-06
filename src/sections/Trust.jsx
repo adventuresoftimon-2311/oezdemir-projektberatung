@@ -43,7 +43,7 @@ const Trust = () => {
                         {reasons.map((reason, index) => (
                             <div
                                 key={index}
-                                className="bg-white px-6 py-3 rounded shadow-sm hover:shadow-md transition-shadow border border-gray-100 flex items-center"
+                                className="bg-white px-6 py-3 rounded shadow-sm hover:shadow-md transition-all duration-300 hover:scale-[1.2] border border-gray-100 flex items-center cursor-default"
                             >
                                 <span className="text-primary-gold font-normal mr-2 text-xs">•</span>
                                 <span className="text-primary-darkblue font-extralight">{reason}</span>
