@@ -6,11 +6,11 @@ const Hero = () => {
     return (
         <section id="hero" className="relative pt-32 pb-20 md:pt-48 md:pb-32 flex items-center justify-center min-h-[80vh] overflow-hidden bg-[url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center bg-fixed">
             {/* White Overlay */}
-            <div className="absolute inset-0 bg-white/90 z-0"></div>
+            <div className="absolute inset-0 bg-white/95 md:bg-white/90 z-0"></div>
 
             <div className="container mx-auto px-4 relative z-10 flex flex-col items-center">
                 <div className="w-fit mx-auto flex flex-col items-start text-left max-w-5xl">
-                    <h1 className="text-2xl md:text-4xl lg:text-5xl font-thin font-display leading-tight mb-8 text-primary-darkblue text-left">
+                    <h1 className="text-2xl md:text-4xl lg:text-5xl font-normal md:font-thin font-display leading-tight mb-8 text-primary-darkblue text-left">
                         Projektunterstützung in Planung und <br className="hidden md:block" />
                         Ausschreibung, bei energetischen <br className="hidden md:block" />
                         Sanierungen sowie in Großprojekten

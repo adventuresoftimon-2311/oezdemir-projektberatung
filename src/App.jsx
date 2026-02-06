@@ -7,6 +7,8 @@ import Impressum from './pages/Impressum';
 import Datenschutz from './pages/Datenschutz';
 import ScrollToTop from './components/ScrollToTop';
 
+import CookieBanner from './components/CookieBanner';
+
 function App() {
   return (
     <Router>
@@ -21,6 +23,7 @@ function App() {
           </Routes>
         </div>
         <Footer />
+        <CookieBanner />
       </div>
     </Router>
   );
