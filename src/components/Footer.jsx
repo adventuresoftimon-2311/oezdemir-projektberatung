@@ -18,7 +18,7 @@ const Footer = () => {
                         </p>
                     </div>
 
-                    <div className="lg:w-2/3 flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
+                    <div className="lg:w-2/3 flex flex-col md:flex-row justify-start items-center md:items-start gap-8 md:gap-24">
                         <div>
                             <h4 className="font-bold mb-4 text-primary-darkblue">Kontakt</h4>
                             <ul className="space-y-2 text-sm text-gray-600">
