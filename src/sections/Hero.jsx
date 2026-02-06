@@ -10,10 +10,10 @@ const Hero = () => {
 
             <div className="container mx-auto px-4 relative z-10 flex flex-col items-center">
                 <div className="w-fit mx-auto flex flex-col items-start text-left max-w-5xl">
-                    <h1 className="text-4xl md:text-6xl lg:text-7xl font-thin font-display leading-tight mb-8 text-primary-darkblue text-left">
-                        Projektunterstützung <br className="hidden md:block" />
-                        in Planung, Sanierung <br className="hidden md:block" />
-                        und im Hochbau
+                    <h1 className="text-2xl md:text-4xl lg:text-5xl font-thin font-display leading-tight mb-8 text-primary-darkblue text-left">
+                        Projektunterstützung in Planung und <br className="hidden md:block" />
+                        Ausschreibung, bei energetischen <br className="hidden md:block" />
+                        Sanierungen sowie in Großprojekten
                     </h1>
 
                     <div className="flex flex-col gap-4 mb-12 w-full items-start">
